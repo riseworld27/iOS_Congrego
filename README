@@ -1,11 +1,11 @@
 # Congrego #
 
-`Congrego` is an iPad application interfacing with the `Congrego` backend, allowing the user to
-view documentation made available to them. 
+Congrego is an iPad application interfacing with the Congrego backend, allowing the user to
+view documentation made available to them
  
 ## Requirements ##
 
-* `Cocoapods` - Cocoopods is used as dependency management for this project. 
+Cocoapods - Cocoopods is used as dependency management for this project. 
 
 ## Build schemes ##
 

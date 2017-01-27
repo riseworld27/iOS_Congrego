@@ -1,0 +1,49 @@
+/* 
+  Localizable.strings
+  IgViewer
+
+  Created by matata on 25/02/2013.
+  Copyright (c) 2013 matata. All rights reserved.
+*/
+
+"LoginUserNameField" = "User Name";
+"LoginPasswordField" = "Password";
+"LoginButton" = "Sign In";
+"LoginErrorAlertTitle" = "Error logging in";
+"LoginErrorAlertMessage" = "There was an error logging in, please check your user name and password are correct";
+
+"HeaderButtonSearch" = "Search";
+"HeaderButtonSettings" = "Settings";
+"HeaderButtonSync" = "Sync";
+"HeaderButtonBack" = "Back";
+"HeaderButtonSettingsLogOutButton" = "Log out";
+"SearchBarDefaultText" = "Search entries";
+"SearchHeaderBarTitle" = "Search";
+"SearchResultsText" = "Results for";
+
+"AssetDownloadManagerErrorDownloadingAlertTitle" = "Error Downloading";
+"AssetDownloadManagerErrorDownloadingAlertMessage" = "Could not download the asset at this time, please try again later.";
+"AssetDownloadManagerErrorDownloadingAlertOkButton" = "OK";
+
+"DetailsWindowBackButton" = "Back";
+"DetailsWindowLaunchButton" = "Launch";
+"DetailsWindowDownloadButton" = "Download";
+"DetailsWindowDownloadingButton" = "Downloading...";
+"DetailsWindowQueuedDownloadButton" = "Queued for download";
+"DetailsWindowRemoveButton" = "Remove download";
+"DetailsWindowFormatText" = "Format:";
+"DetailsWindowSizeText" = "Size:";
+"DetailsWindowLastUpdateText" = "Last updated:";
+
+"MediaWindowDoneButton" = "Done";
+
+"SyncingAlert" = "Syncing";
+
+"ServerConnectionErrorAlertTitle" = "Connection Error";
+"ServerConnectionErrorAlertMessage" = "There was an error connecting to the server, please try again later.";
+
+"WiFiConnectionErrorAlertTitle" = "Connection Error";
+"WiFiConnectionErrorAlertMessage" = "RepPresent could not establish an internet connection, please connection to a Wi-Fi or cellular network.";
+
+"MediaTypeWarningAlertTitle" = "Warning: Invalid Media Type";
+"MediaTypeWarningAlertMessage" = "The selected media type was not recognised and cannot be displayed. Please try re-downloading the asset, if the problem persists contact a CMS administrator.";

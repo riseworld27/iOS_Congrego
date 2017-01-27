@@ -1,0 +1,67 @@
+//
+// Prefix header for all source files of the 'IgViewer' target in the 'IgViewer' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+	#import <UIKit/UIKit.h>
+	#import <Foundation/Foundation.h>
+	#import <CoreData/CoreData.h>
+#import <AFNetworking/AFURLRequestSerialization.h>
+#import <Crashlytics/Crashlytics.h>
+
+    static inline float CENTER_X(UIView *obj, UIView *inThis) {
+        return ((inThis.frame.size.width/2)-(obj.frame.size.width/2));
+    }
+    static inline float CENTER_Y(UIView *obj, UIView *inThis) {
+        return ((inThis.frame.size.height/2)-(obj.frame.size.height/2));
+    }
+    static inline float WIDTH(UIView *obj) {
+        return obj.frame.size.width;
+    }
+    static inline float HEIGHT(UIView *obj) {
+        return obj.frame.size.height;
+    }
+    static inline float X(UIView *obj) {
+        return obj.frame.origin.x;
+    }
+    static inline float Y(UIView *obj) {
+        return obj.frame.origin.y;
+    }
+    static inline float COLOR(float c) {
+        return c/255;
+    }
+    static inline float AFTER_Y(UIView *obj) {
+        return (obj.frame.origin.y+obj.frame.size.height);
+    }
+    static inline float AFTER_X(UIView *obj) {
+        return (obj.frame.origin.x+obj.frame.size.width);
+    }
+
+    static inline float TO_RADIANS(float deg) {
+        return deg * M_PI / 180;
+    }
+
+    static inline float TO_DEGREES(float rad) {
+        return rad * 180 / M_PI;
+    }
+
+	static inline int RND(int from, int to) {
+		return (int)from + arc4random() % (to-from+1);
+	}
+
+    #define IS_IPHONE5 ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone && [UIScreen mainScreen].bounds.size.height == 568)
+    #define IMAGE_NAMED_568(image) (IS_IPHONE5 ? [NSString stringWithFormat:@"%@-568h.%@", [image stringByDeletingPathExtension], [image pathExtension]] : image)
+
+#define SYSTEM_VERSION_EQUAL_TO(v)                  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedSame)
+#define SYSTEM_VERSION_GREATER_THAN(v)              ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedDescending)
+#define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
+#define SYSTEM_VERSION_LESS_THAN(v)                 ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
+#define SYSTEM_VERSION_LESS_THAN_OR_EQUAL_TO(v)     ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedDescending)
+
+#endif

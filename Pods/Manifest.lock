@@ -1,0 +1,55 @@
+PODS:
+  - AFDownloadRequestOperation (2.0.1):
+    - AFNetworking (~> 2.0)
+  - AFNetworking (2.4.1):
+    - AFNetworking/NSURLConnection (= 2.4.1)
+    - AFNetworking/NSURLSession (= 2.4.1)
+    - AFNetworking/Reachability (= 2.4.1)
+    - AFNetworking/Security (= 2.4.1)
+    - AFNetworking/Serialization (= 2.4.1)
+    - AFNetworking/UIKit (= 2.4.1)
+  - AFNetworking/NSURLConnection (2.4.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.4.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.4.1)
+  - AFNetworking/Security (2.4.1)
+  - AFNetworking/Serialization (2.4.1)
+  - AFNetworking/UIKit (2.4.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Crashlytics (3.7.0):
+    - Fabric (~> 1.6.3)
+  - Fabric (1.6.7)
+  - GoogleAnalytics-iOS-SDK (3.12):
+    - GoogleAnalytics-iOS-SDK/Core (= 3.12)
+  - GoogleAnalytics-iOS-SDK/Core (3.12)
+  - iCarousel (1.8.2)
+  - ReflectionView (1.2)
+  - vfrReader (2.8.6)
+
+DEPENDENCIES:
+  - AFDownloadRequestOperation (~> 2.0)
+  - AFNetworking (~> 2.4.1)
+  - Crashlytics
+  - Fabric
+  - GoogleAnalytics-iOS-SDK
+  - iCarousel (~> 1.8)
+  - ReflectionView (~> 1.2)
+  - vfrReader (~> 2.8.6)
+
+SPEC CHECKSUMS:
+  AFDownloadRequestOperation: 748a1643423e1ddb23f2178f778087d4f0ae8ac7
+  AFNetworking: 41d45d2c14219af0fa5addf3cfd433a002c13c9f
+  Crashlytics: c3a2333dea9e2733d2777f730910321fc9e25c0d
+  Fabric: caf7580c725e64db144f610ac65cd60956911dc7
+  GoogleAnalytics-iOS-SDK: 13241762fa4aea845eb75bef6c0da3427a26e7b3
+  iCarousel: 67c8a43da5a46795b56aadfc96cd36a16f6149b2
+  ReflectionView: be2a06e597ec6734c0077423c797ff02de765947
+  vfrReader: 94ea739a545e39093c93802ca1c5b203a5df46b1
+
+COCOAPODS: 0.39.0

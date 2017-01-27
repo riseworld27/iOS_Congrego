@@ -18,7 +18,7 @@ and `JAZZ Pharma` branding.
 Add a new target for the application, usually by duplicating an existing target. Configure the
 correct Bundle ID for the new brand. 
 
-The `Supporting Files/Branding` group contains the minimal set of files required for a new brand.
+The Supporting Files/Branding group contains the minimal set of files required for a new brand.
 Copy and customise an existing brand - but set the target membership of your new set of resources
 to that of your new target.
 
